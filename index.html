@@ -1,1 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Valeria's Professional Portfolio</title>
+  <link rel="stylesheet" href="assets/css/style.css"/>
+  <link rel="stylesheet" href="assets/css/reset.css"/>
+</head>
+
+<body>
+    <header>
+        <h1>Valeria</h1>
+        <nav>
+          <ul>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#work">Work</a></li>
+            <li><a href="#contact">Contact Me</a></li>
+            <li><a href="#resume">Resume</a></li>
+          </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <img
+          src="assets/images/hero header.jpg"
+          alt="green background" loading="lazy" class="hero-img"
+        />
+    </section>
+
+    <section class="aboutme" id="about">
+        <h2>About Me</h2>
+        <p>
+          My name is Valeria Lopez. I live in the Houston, TX area. I am graduate from The University of Houston, 
+          C.T. Bauer College of Business with a Bachelor of Business Administration in Supply Chain Management.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur
+          nostrum dolor minus, libero delectus praesentium perferendis
+        </p>
+        <p>
+          I am currently working in the service industry but excited to soon be making a change in career.
+          Reach out to valeriabrilopez@gmail.com.
+        </p>
+    </section>
+
+    <section class="mywork" id="work">
+        <h2 class="mywork-header">Work</h2>
+
+      <div class="mywork-wrapper">
+        <div class="first-set animate__animated animate__pulse">
+          <img src="assets/images/mywork1.jpg"
+            alt="" loading="lazy" class="icon icon-card"/>
+          <img src="assets/images/mywork2.jpg"
+            alt="" loading="lazy" class="icon icon-card"/>
+          <img src="assets/images/mywork3.jpg"
+            alt="" loading="lazy" class="icon icon-card"/>
+        </div>
+
+        <div class="second-set animate__animated animate__pulse">
+          <img src="assets/images/mywork4.jpg"
+            alt="" loading="lazy" class="icon icon-card"/>
+          <img src="assets/images/mywork5.jpg"
+            alt="" loading="lazy" class="icon icon-card"/>
+          <img src="assets/images/mywork6.jpg"
+            alt="" loading="lazy" class="icon icon-card"/>
+        </div>
+      </div>
+    </section>
+
+    <section class="contactinfo" id="contact">
+        <h2>Contact Me</h2>
+      <div class="contactinfo-form-container">
+        <div class="contact-form">
+          <form action="https://formspree.io/f/xyylngw" method="POST">
+            <div class="form-control">
+              <label for="name">Name</label>
+              <input
+                type="text"
+                id="name"
+                name="sender-name"
+                placeholder="Enter Your Name"
+                class="input-field"
+                required
+              />
+            </div>
+            <div class="form-control">
+              <label for="email">Email</label>
+              <input
+                type="email"
+                id="email"
+                name="sender-email"
+                placeholder="Enter Your Email"
+                class="input-field"
+                required
+              />
+            </div>
+            <div class="form-control">
+              <label for="message">Message</label>
+              <textarea
+                id="message"
+                cols="60"
+                rows="10"
+                placeholder="Enter Your Message"
+                name="message"
+                class="input-field"
+                required
+              ></textarea>
+            </div>
+            <input
+              type="submit"
+              value="Submit"
+              id="submit-btn"
+              class="submit-btn"
+            />
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section class="myresume" id="resume"></section>
+
+</body>
+
+<footer>
+    <p>&copy; Copyright 2022</p>
+    <p>Built by Valeria Lopez</p>
+</footer>
