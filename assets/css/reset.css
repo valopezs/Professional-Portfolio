@@ -10,12 +10,11 @@
   
   a {
     text-decoration: none;
-    color: var(--primary-color);
+    color: #DEDAC3;
   }
-  
-  //kristen help
+
   a:hover {
-    color: red;
+    color: #a0a691;
   }
   
   body {

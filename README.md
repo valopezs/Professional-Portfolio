@@ -20,3 +20,10 @@ This application is compatible with most commonly used web browsers.
 
 ## Screenshots
 
+![Alt text](/assets/images/Screen%20Shot%202022-07-05%20at%2011.38.24%20PM.png)
+
+![Alt text](/assets/images/Screen%20Shot%202022-07-05%20at%2011.38.33%20PM.png)
+
+![Alt text](/assets/images/Screen%20Shot%202022-07-05%20at%2011.38.39%20PM.png)
+
+![Alt text](/assets/images/Screen%20Shot%202022-07-05%20at%2011.38.44%20PM.png)

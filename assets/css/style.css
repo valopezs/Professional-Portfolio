@@ -9,7 +9,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 1%;
-    background-color: #063e06;
+    background-color: #333f34;
     color: #DEDAC3;
 }
 
@@ -24,19 +24,18 @@ nav ul {
 }
 
 nav a {
-    background-color: #063e06;
-    color: #DEDAC3;
+    background-color: #333f34;
+    color: #dbd9cc;
     font-weight: bold;
-    font-size: 100;
-    text-decoration-color: #DEDAC3;
+    font-size: 150;
+    text-decoration-color: #dbd9cc;
     text-decoration-line: underline;
     text-decoration-style: solid;
     text-decoration-thickness: 3px;
 }
 
-//kristen help
-nav a:hover {
-    color: red;
+a:hover {
+    color: #a0a691;
 }
 
 @media screen and (max-width: 768px) {
@@ -62,12 +61,13 @@ nav a:hover {
 }  
 
 .aboutme {
-    background-color: var(--bg-color);
+    background-color: #dbd9cc;
     padding: 1rem 6rem;
 }
   
 .aboutme h2 {
-    margin-bottom: var(--bottom-margin);
+    margin-top: 20px;
+    margin-bottom: 16px;
     text-align: center;
 }
   
@@ -169,6 +169,11 @@ nav a:hover {
     padding: 10px;
     margin-left: auto;
     margin-right: auto;
+}
+
+.myresume h2 {
+    margin-top: 40px;
+    text-align: center;
 }
 
 footer {
