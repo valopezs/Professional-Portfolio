@@ -163,6 +163,14 @@ nav a:hover {
     cursor: pointer;
 }
 
+.myresume img {
+    display: flex;
+    width: 80%;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 footer {
     background-color: rgb(20, 50, 18);
     color:whitesmoke;

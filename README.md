@@ -12,17 +12,11 @@
 
 This website contains Version 1.0 of my professional information which I will keep updating on a regular basis. As of now, I only used HTML and CSS to format and style my portfolio.
 
-## Table of Contents
-
-* [Installation](#installation)
-* [Usage](#usage)
-    * [Screenshots](#screenshots)
+I plan to continously use this portfolio to be able to obtain a job in the web devolopment industry.
    
 ## Installation
 
 This application is compatible with most commonly used web browsers.
 
-## Usage
-
-### Screenshots
+## Screenshots
 
